@@ -8,10 +8,10 @@ body{
 
 .hero{
     background-image: url(imagens/bg-3.jpg);
-    height: 650px;
+    height: 500px;
     background-position: right center;
     background-size: cover;
-    border-top: 5px solid;
+    border-top: 1px solid transparent;
 }
 
 .hero-contet{
@@ -29,19 +29,29 @@ body{
     
 }
 
+.hero-contet p{
+    background-color: rgba(0, 0, 0, 0.198);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+
+}
+
 .hero nav ul{
     text-align: right;
+    margin: 20px 50px 0 0;
+    
 }
 
 .hero nav li{
     display: inline-block;
     list-style: none;
     border: 1px solid white;
-    
+    margin-left: 10px;
 }
 
 .hero nav a{
-    background-color: rgba(0, 0, 0, 0.397);
+    background-color: rgba(0, 0, 0, 0.102);
     display: block;
     padding: 10px;
     color: white;
@@ -53,15 +63,7 @@ body{
 
 
 
-.hero-contet p{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 2px;
-    font-size: Poppins;
 
-}
 
 .hero nav a:hover{
     background: rgba(0, 0, 0, 0.274);
@@ -76,8 +78,36 @@ main{
 
 .contet-section{
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.card-01, .card-02{
+    margin-right: 2%;
+}
+
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: Poppins;
 }
 
 .contet-header{
@@ -99,7 +129,7 @@ main{
 .rodape{
     height: 80px;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
     background: #6b6c68;
