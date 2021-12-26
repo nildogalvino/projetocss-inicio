@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    
+}
+
+.hero{
+    background-image: url(imagens/bg-3.jpg);
+    height: 650px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 5px solid;
+}
+
+.hero-contet{
+    text-align: center;
+    color: white;
+    margin: 50px;
+    font-family: Poppins;
+    padding: 100px;
+}
+
+.hero-contet h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473)
+    
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background-color: rgba(0, 0, 0, 0.397);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+
+.hero-contet p{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-size: Poppins;
+
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.274);
+}
+
+
+
+main{
+    width: 80%;
+    margin: auto;    
+}
+
+.contet-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.contet-header{
+    border-bottom: solid 2px #ccc;
+    padding: 10px;
+    background: #eee;
+    
+}
+
+.content-header h2{
+    margin: 0;
+    background-color: rgb(97, 90, 90);
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.rodape{
+    height: 80px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+    background: #6b6c68;
+    padding-top: 30px;
+}
