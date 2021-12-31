@@ -133,9 +133,11 @@ body{
 }
 
 .rodape{
+    background-color: #0b171f;
     color: #0b171f;
     padding: 25px;
     color: #6f8597;
     letter-spacing: 5px;
     text-align: center;
+    margin-top: 5px;
 }
