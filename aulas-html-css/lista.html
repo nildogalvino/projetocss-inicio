@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas ordenadas</title>
+    <style>
+        li ul{
+            height: 0;
+            overflow: hidden;
+            transition: height .5s;
+        }
+
+        li:hover{
+            background-color: #ccc;
+        }
+
+        li:hover ul{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Listas Ordenadas</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+        <ul>
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <hr>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Liguagem de marcação de texto</dd>
+        <dt>CSS</dt>
+        <dd>Linguaem para criação de folhas de estilo</dd>
+    </dl>
+    <hr>
+    <dl>
+        <dt>www</dt>
+        <dt>internet</dt>
+        <dd>Rede mundial de computadores</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem script para internet</dd>
+        <dd>Script para rodar no browser</dd>
+    </dl>
+</body>
+</html>
