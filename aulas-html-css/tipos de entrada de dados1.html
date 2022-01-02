@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>Tipos de entrada de dados 1</h1>
-    <form action="#" method="get" class="formLogin">
+    <form action="#" method="post" class="formLogin">
         <fieldset>
             <legend>Dados pessoais</legend>
             <label>Email</label>
-            <input type="email">
+            <input type="email" required placeholder="Digite um e-mail valido">
 
             <label>Numero de filhos</label>
-            <input type="number" min="0" max="7">
+            <input type="number" min="0" max="7" step=".5">
 
             <label>Nascimento</label>
             <input type="date">
@@ -30,11 +30,50 @@
                 Feminino
             <input type="radio" name="sexo" value="F">
             </label>
+            <input type="hidden" name="expira" value="2022-12-31">
+
+            <label>Estado</label>
+            <select name="estado">
+                <option value="0">Selecione</option>
+                <option value="BA">Bahia</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="ES">Espirito Santo</option>
+            </select>
+            </fieldset>
+            <fieldset>
+                <legend>Area de Interesse</legend>
+                <input type="checkbox" name="html" value="hmtl">HTML
+                <input type="checkbox" name="css" value="css">CSS
+                <input type="checkbox" name="javascript" value="javascript">JAVASCRIPT
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="msg" cols="30" rows="10" style="resize: none;></textarea>
+
+                <textarea cols="30" rows="10" style="resize: none;" readonly name="contrato">Aqui entra o texto do contrato que precisa ser aceito</textarea>
+                <label><input type="checkbox" checked>Li e Aceito</label>
+                <input type="range" min="0" max="10" step="2">
+                <input type="time">
+                <input type="color">
+
+                <select size="3" multiple>
+                    <option>Opção1</option>
+                    <option>Opção2</option>
+                    <option>Opção3</option>
+                    <option>Opção4</option>
+                    <option>Opção5</option>
+                </select>
+            </fieldset>  
 
             <input type="submit" value="mandar">
+            <input type="button" value="button">
+            <input type="reset" value="reset">
+
+          
 
             
-        </fieldset>
+        
 
     </form>
 </body>
